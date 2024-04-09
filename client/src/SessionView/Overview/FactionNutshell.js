@@ -29,9 +29,7 @@ export function FactionNutshell({ onClose, factionKey }) {
           <CardActions disableSpacing>
             <Button
               aria-label={t('sessionView.overview.goToWiki')}
-              href={`https://twilight-imperium.fandom.com/wiki/${encodeURIComponent(
-                factionName,
-              )}`}
+              href={encodeURI(getData(factionKey).link)}
               startIcon={<LocalLibrary />}
               target="about:blank"
             >
