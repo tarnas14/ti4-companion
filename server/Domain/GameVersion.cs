@@ -6,5 +6,6 @@ namespace Server.Domain
         PoK,
         PoK_Codex2,
         PoK_Codex3,
+        DiscordantStars,
     }
 }
